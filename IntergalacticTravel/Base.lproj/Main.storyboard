@@ -26,7 +26,7 @@
                                 </constraints>
                                 <state key="normal" title="Visit Red Dwarf"/>
                                 <connections>
-                                    <segue destination="Vju-L7-cBo" kind="show" id="C1x-lK-Q02"/>
+                                    <segue destination="Vju-L7-cBo" kind="show" identifier="redDwarfSegue" id="C1x-lK-Q02"/>
                                 </connections>
                             </button>
                             <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="0UD-qz-KPt">
@@ -37,7 +37,7 @@
                                 </constraints>
                                 <state key="normal" title="Visit Blue Star"/>
                                 <connections>
-                                    <segue destination="Vju-L7-cBo" kind="show" id="sRd-fu-rcn"/>
+                                    <segue destination="Vju-L7-cBo" kind="show" identifier="blueStarSegue" id="sRd-fu-rcn"/>
                                 </connections>
                             </button>
                         </subviews>
@@ -104,6 +104,6 @@
         </scene>
     </scenes>
     <inferredMetricsTieBreakers>
-        <segue reference="sRd-fu-rcn"/>
+        <segue reference="C1x-lK-Q02"/>
     </inferredMetricsTieBreakers>
 </document>
