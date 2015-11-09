@@ -23,7 +23,7 @@ class ViewController: UIViewController {
         }
         else
         {
-            nextViewController.isBlueStar = false 
+            nextViewController.isBlueStar = false
         }
         nextViewController.title = sender?.currentTitle
     }
